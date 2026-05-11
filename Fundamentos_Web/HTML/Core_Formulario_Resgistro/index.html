@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Formulario Registro</title>
+        <link rel="stylesheet" href="/css/styles.css">
+    </head>
+    <body>
+        <div>
+            <form action="#" method="post">
+                <h1>¡Regístrate y únete a la comunidad!</h1>
+                <br>
+                <br>
+                <label for="nombre">Nombre:</label>
+                <input type="text" id="nombre" name="nombre" placeholder="Primer nombre" required>
+                <br>
+                <br>
+                <label for="apellido">Apellido:</label>
+                <input type="text" id="apellido" name="apellido" placeholder="Primer apellido" required>
+                <br>
+                <br>
+                <label for="correo">Correo Electrónico:</label>
+                <input type="email" id="correo" name="correo" placeholder="ejemplo@correo.com" required>
+                <br>
+                <br>
+                <label for="clave">Contraseña:</label>
+                <input type="password" id="clave" name="clave" maxlength="10" required>
+                <br>
+                <label><em>Máximo 10 caracteres</em></label>
+                <br>
+                <br>
+                <label for="confirmarClave">Confirmar Contraseña:</label>
+                <input type="password" id="confirmarClave" name="confirmarClave" maxlength="10" required>
+                <br>
+                <br>
+                <label for="fecha-nacimiento">Fecha de Nacimiento:</label>
+                <input type="date" id="fecha-nacimiento" name="fecha-nacimiento" max="2026-12-31" required>
+                <br>
+                <br>
+                <label>Género:</label>
+                <input type="radio" id="masculino" name="genero">
+                <label for="masculino">Masculino</label>
+                <input type="radio" id="femenino" name="genero">
+                <label for="femenino">Femenino</label>
+                <input type="radio" id="no-dice" name="genero">
+                <label for="no-dice">Prefiero no decir</label>
+                <br>
+                <br>
+                <input type="checkbox" id="suscribirse" name="suscribirse">
+                <label for="suscribirse">Suscríbete a nuestro boletín de noticias</label>
+                <br>
+                <br>
+                <label for="acerca-de-mi">Una descripción de mi mismo:</label>
+                <br>
+                <textarea id="acerca-de-mi" name="acerca-de-mi" cols="40" rows="5" maxlength="300" minlength="150" placeholder="¡Queremos conocerte!" required></textarea>
+                <br>
+                <label><em>Mínimo 150 caracteres - Máximo 300 caracteres</em></label>
+                <br>
+                <br>
+                <label>Selecciona tus intereses:</label>
+                <br>
+                <select id="intereses" name="intereses" multiple>
+                    <option value="musica">Música</option>
+                    <option value="deportes">Deportes</option>
+                    <option value="viajes">Viajes</option>
+                    <option value="tecnologia">Tecnología</option>
+                </select>
+                <br>
+                <label><em>Desde navegador de escritorio presiona Ctrl para seleccionar más de una opción</em></label>
+                <br>
+                <br>
+                <input type="image" src="/media/boton-enviar.png" alt="Botón enviar" width="120px" >
+                <br>
+                <br>
+                <input type="reset" value="Vuelve a comenzar">
+            </form>
+        </div>
+    </body>
+</html>

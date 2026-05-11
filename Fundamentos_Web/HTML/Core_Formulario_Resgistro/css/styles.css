@@ -1,0 +1,16 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+div{
+    margin: 20px;
+    border: 5px solid black;
+    padding: 20px;
+    display: inline-block;
+}
+
+em{
+color: red;
+font-weight: bold;
+}
