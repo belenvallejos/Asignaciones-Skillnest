@@ -7,8 +7,8 @@ Proyectos Bootcamp Full Stack Java
 ## HTML
 - [Práctica 1: Entrada de Diccionario](./Fundamentos_Web/HTML/Practica_Entrada_Diccionario/)
 - [Práctica 2: Corrección Sangría e Identificación Relación PCS](./Fundamentos_Web/HTML/Practica_Indentacion_RelacionPCS/)
-- [Asignación Core: Formulario de Registro](./Fundamentos_Web/HTML/Core_Formulario_Resgistro/)
-- [Práctica 3: Portafolio Personal]
+- [Asignación Core: Formulario de Registro](./Fundamentos_Web/HTML/Core_Formulario_Registro/)
+- [Práctica 3: Portafolio Personal](./Fundamentos_Web/HTML/)
 
 <!-- 
 
